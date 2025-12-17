@@ -15,7 +15,6 @@
 • 左键点击：提高优先级
 • 右键点击：降低优先级
 • 中键点击：重置为默认
-• 颜色指示：绿色=高优先级，红色=低优先级
 
 使用场景：
 • 分类存储食物（人肉、昆虫肉分开）
@@ -40,4 +39,5 @@
         <li>Ludeon.RimWorld</li>
         <li>brrainz.harmony</li>
     </loadAfter>
+
 </ModMetaData>
