@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>MoreStoragePriority</name>
+    <author>Lucoshin</author>
+    <packageId>Lucoshin.morestoragepriority</packageId>
+    <supportedVersions>
+        <li>1.5</li>
+        <li>1.6</li>
+    </supportedVersions>
+    <description>
+为存储区的每个物品/类别单独设置优先级权重。
+
+功能特性：
+• 为每个物品/类别设置独立的权重（-3 到 +3）
+• 左键点击：提高优先级
+• 右键点击：降低优先级
+• 中键点击：重置为默认
+• 颜色指示：绿色=高优先级，红色=低优先级
+
+使用场景：
+• 分类存储食物（人肉、昆虫肉分开）
+• 武器库管理（传奇武器优先存放）
+• 医疗物品分级存储
+• 有毒垃圾隔离
+
+示例：
+冷藏库A（重要）人肉权重-2 → 实际优先级：3
+冷藏库B（重要）人肉权重+2 → 实际优先级：7
+→ 小人优先把人肉搬到B
+
+    </description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <!-- <steamWorkshopUrl>steam://url/CommunityFilePage/...</steamWorkshopUrl> -->
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>brrainz.harmony</li>
+    </loadAfter>
+</ModMetaData>
